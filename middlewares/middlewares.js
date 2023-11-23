@@ -17,7 +17,6 @@ const cartrouter = require('../Routes/cartRoutes')
 
 app.use(cors());
 app.use(express.json());
-app.use(express.static('../public'))
 app.use("/", userRouter);
 app.use("/locations", locationRouter);
 app.use("/mealtypes", mealRouter);
