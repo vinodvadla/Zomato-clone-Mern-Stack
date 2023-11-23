@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const connectdb = async () => {
     try {
-        await mongoose.connect("mongodb+srv://vinodvinod0979:vinod7144@cluster0.01tj5jp.mongodb.net/?retryWrites=true&w=majority", {
+        await mongoose.connect("mongodb://localhost:27017", {
             dbName: "Zomato",
         })
         console.log("Connected to MongoDB")

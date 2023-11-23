@@ -4,6 +4,6 @@ Dbconnect()
 
 
 
-app.listen(process.env.MONGO_URI || 5000, () => {
+app.listen(process.env.PORT, () => {
     console.log("server running on port 5000")
 })
