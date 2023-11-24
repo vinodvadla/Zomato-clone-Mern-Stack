@@ -21,7 +21,7 @@ app.use("/", userRouter);
 app.use("/locations", locationRouter);
 app.use("/mealtypes", mealRouter);
 app.use("/restaurants", restRouter);
-app.use('/', auth, payRouter)
+app.use('/pay',payRouter)
 app.use('/cart', auth, cartrouter)
 
 
